@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 130px;
+    margin: 2% 7%;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+    font-family: 'Dosis', sans-serif;
+    overflow-x: hidden;
+}
+
+.organizacao {
+    margin: 5% 9%;
+    display: flex;
+}
+
+.organizacao_conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border: 3px solid rgb(233, 231, 231);
+    border-left-color: white;
+    border-right-color: white;
+    border-top-color: white;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.navegacao {
+    height: 12.5px;
+    background-color: rgb(236, 236, 236);
+    position: absolute;
+    padding: 28px 0vh;
+    width: 100%;
+}
+
+.header-content1 {
+    margin-left: -5%;
+    color: rgb(196, 15, 49);
+    font-size: 37px;
+}
+
+.header-content2 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.img1 {
+    width: 76vh;
+    position: absolute;
+    top: 99.8%;
+    left: 937.4px;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+
+.botao_deslogar {
+    width: 29.76px;
+    position: absolute;
+    left: 1320px;
+    text-decoration: none;
+    background-color: rgb(196, 15, 49);
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.7vh;
+    top: 50px;
+}
+
+.botao_deslogar:hover {
+    background-color: rgb(231, 3, 3);
+    color: white;
+}
+
+.button_usuario {
+    width: 6vh;
+    position: absolute;
+    top: 45px;
+    right: 50px;
+}
+
+.HOME {
+    text-decoration: none;
+    position: absolute;
+    left: 230px;
+    top: 0px;
+    padding: 17.4px 44.64px;
+    padding-top: 26.7px;
+    color: black;
+    border-radius: 2.4px;
+    font-size: 17px;
+    border-radius: 2.2px;
+    background-color: rgb(212, 209, 209);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    border-bottom: 3px solid rgb(212, 209, 209);
+}
+
+.HOME:hover {
+    background-color: rgb(196, 15, 49);
+    color: white;
+    border-bottom: 3px solid rgb(255, 78, 14);
+}
+
+.button_coleta {
+    text-decoration: none;
+    position: absolute;
+    left: 358px;
+    top: 0px;
+    padding: 17.4px 44.64px;
+    padding-top: 26.7px;
+    color: black;
+    font-size: 17px;
+    border-radius: 2.2px;
+    background-color: rgb(212, 209, 209);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    border-bottom: 3px solid rgb(212, 209, 209);
+}
+
+.button_coleta:hover {
+    background-color: rgb(196, 15, 49);
+    color: white;
+    border-bottom: 3px solid rgb(255, 78, 14);
+    border-radius: 2.4px;
+}
+
+.button_elegiveis {
+    text-decoration: none;
+    position: absolute;
+    left: 577px;
+    top: 0px;
+    padding: 17.4px 44.64px;
+    padding-top: 26.7px;
+    color: black;
+    font-size: 17px;
+    border-radius: 2.2px;
+    background-color: rgb(212, 209, 209);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    border-bottom: 3px solid rgb(212, 209, 209);
+}
+
+.button_elegiveis:hover {
+    background-color: rgb(196, 15, 49);
+    color: white;
+    border-bottom: 3px solid rgb(255, 78, 14);
+    border-radius: 2.4px;
+}
+
+.button_beneficios {
+    text-decoration: none;
+    position: absolute;
+    left: 792.4px;
+    top: 0px;
+    padding: 17.4px 44.64px;
+    padding-top: 26.7px;
+    color: black;
+    font-size: 17px;
+    border-radius: 2.2px;
+    background-color: rgb(212, 209, 209);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    border-bottom: 3px solid rgb(212, 209, 209);
+}
+
+.button_beneficios:hover {
+    background-color: rgb(196, 15, 49);
+    color: white;
+    border-bottom: 3px solid rgb(255, 78, 14);
+    border-radius: 2.4px;
+}
+
+.button_nos {
+    text-decoration: none;
+    position: absolute;
+    left: 1076.2px;
+    top: 0px;
+    padding: 17.4px 44.64px;
+    padding-top: 26.7px;
+    color: black;
+    font-size: 17px;
+    border-radius: 2.2px;
+    background-color: rgb(212, 209, 209);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    border-bottom: 3px solid rgb(212, 209, 209);
+}
+
+.button_nos:hover {
+    background-color: rgb(196, 15, 49);
+    color: white;
+    border-bottom: 3px solid rgb(255, 78, 14);
+    border-radius: 2.4px;
+}
+
+.instagram {
+    position: absolute;
+    width: 5.4vh;
+    left: 20px;
+    top: 13px;
+    transition: transform 0.3s ease;
+}
+
+.instagram:hover {
+    transform: scale(1.2);
+}
+
+.twitter {
+    position: absolute;
+    width: 4.75vh;
+    left: 70px;
+    top: 15px;
+    transition: transform 0.3s ease;
+}
+
+.twitter:hover {
+    transform: scale(1.2);
+}
+
+.facebook {
+    position: absolute;
+    width: 4.75vh;
+    left: 120px;
+    top: 15px;
+    transition: transform 0.3s ease;
+}
+
+.facebook:hover {
+    transform: scale(1.2);
+}
+
+.whatsapp {
+    position: absolute;
+    width: 4.75vh;
+    left: 170px;
+    top: 15px;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp:hover {
+    transform: scale(1.2);
+}
+
+.telefone {
+    width: 4.7vh;
+    position: absolute;
+    left: 1260px;
+    margin: -11.90px 0px;
+}
+
+
+.p1_telefone {
+    position: absolute;
+    font-size: 13.92px;
+    left: 1305px;
+    top: 6px;
+}
+
+.p2_telefone {
+    position: absolute;
+    font-size: 13.92px;
+    left: 1305px;
+    position: absolute;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo {
+    position: absolute;
+    left: 160px;
+    top: 250px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.local_p1 {
+    text-decoration: none;
+    color: rgb(196, 15, 49);
+}
+
+.local_p2 {
+    text-decoration: none;
+    color: rgb(196, 15, 49);
+}
+
+.local_p3 {
+    text-decoration: none;
+    color: rgb(196, 15, 49);
+}
+
+
+.local_p4 {
+    text-decoration: none;
+    color: rgb(196, 15, 49);
+}
+
+.local_p5 {
+    text-decoration: none;
+    color: rgb(196, 15, 49);
+}
+
+.local_p6 {
+    text-decoration: none;
+    color: rgb(196, 15, 49);
+}
+
+.local_p7 {
+    text-decoration: none;
+    color: rgb(196, 15, 49);
+}
+
+.local_p8 {
+    text-decoration: none;
+    color: rgb(196, 15, 49);
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+.barra_h2 {
+    color: rgb(196, 15, 49);
+    font-size: 40px;
+}
+
+.barra_h1 {
+    color: rgb(196, 15, 49);
+    font-size: 40px;
+}
+
+.github_button {
+    width: 3.8vh;
+    position: absolute;
+    left: 56.1vw;
+    bottom: 1.8vh;
+    background-color: white;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+}
+
+.github_button:hover {
+    transform: scale(1.2);
+}
+
+.text_dev {
+    position: absolute;
+    margin-left: 27.7vw;
+    padding: 0vh 0vw;
+    bottom: 1.8vh;
+}
+
+.page_end {
+    position: absolute;
+    width: 100vw;
+    background-color: rgb(221, 58, 58);
+    padding: 24px 227.6px;
+    left: 0px;
+    top: 1540.5px;
+}
+
+.github_button {
+    width: 3.5vh;
+    position: absolute;
+    left: 850px;
+    bottom: 1.2vh;
+    background-color: white;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+}
+
+.github_button:hover {
+    transform: scale(1.2);
+}
+
+.text_dev {
+    position: absolute;
+    left: 200px;
+    padding: 0vh 0vw;
+    bottom: 1.7vh;
+}

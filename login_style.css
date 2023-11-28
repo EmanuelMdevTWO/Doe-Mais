@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./assets/fundo_login.jpg);
+    background-size: cover;
+}
+
+.tela_login {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+
+input {
+    padding: 12px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.sent {
+    background-color: dodgerblue;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.sent:hover {
+    background-color: deepskyblue;
+}

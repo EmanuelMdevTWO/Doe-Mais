@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 130px;
+    margin: 2% 7%;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+    font-family: 'Dosis', sans-serif;
+    overflow-x: hidden;
+}
+
+.organizacao {
+    margin: 5% 9%;
+    display: flex;
+}
+
+.organizacao_conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border: 3px solid rgb(233, 231, 231);
+    border-left-color: white;
+    border-right-color: white;
+    border-top-color: white;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.navegacao {
+    height: 12.5px;
+    background-color: rgb(236, 236, 236);
+    position: absolute;
+    padding: 28px 0vh;
+    width: 100%;
+}
+
+.header-content1 {
+    margin-left: -5%;
+    color: rgb(196, 15, 49);
+    font-size: 37px;
+}
+
+.header-content2 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.img1 {
+    width: 76vh;
+    position: absolute;
+    top: 99.8%;
+    left: 937.4px;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+
+.botao_deslogar {
+    width: 29.76px;
+    position: absolute;
+    left: 1320px;
+    text-decoration: none;
+    background-color: rgb(196, 15, 49);
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.7vh;
+    top: 50px;
+}
+
+.botao_deslogar:hover {
+    background-color: rgb(231, 3, 3);
+    color: white;
+}
+
+.button_usuario {
+    width: 6vh;
+    position: absolute;
+    top: 45px;
+    right: 50px;
+}
+
+.HOME {
+    text-decoration: none;
+    position: absolute;
+    left: 230px;
+    top: 0px;
+    padding: 17.4px 44.64px;
+    padding-top: 26.7px;
+    color: black;
+    border-radius: 2.4px;
+    font-size: 17px;
+    border-radius: 2.2px;
+    background-color: rgb(212, 209, 209);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    border-bottom: 3px solid rgb(212, 209, 209);
+}
+
+.HOME:hover {
+    background-color: rgb(196, 15, 49);
+    color: white;
+    border-bottom: 3px solid rgb(255, 78, 14);
+}
+
+.button_coleta {
+    text-decoration: none;
+    position: absolute;
+    left: 358px;
+    top: 0px;
+    padding: 17.4px 44.64px;
+    padding-top: 26.7px;
+    color: black;
+    font-size: 17px;
+    border-radius: 2.2px;
+    background-color: rgb(212, 209, 209);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    border-bottom: 3px solid rgb(212, 209, 209);
+}
+
+.button_coleta:hover {
+    background-color: rgb(196, 15, 49);
+    color: white;
+    border-bottom: 3px solid rgb(255, 78, 14);
+    border-radius: 2.4px;
+}
+
+.button_elegiveis {
+    text-decoration: none;
+    position: absolute;
+    left: 577px;
+    top: 0px;
+    padding: 17.4px 44.64px;
+    padding-top: 26.7px;
+    color: black;
+    font-size: 17px;
+    border-radius: 2.2px;
+    background-color: rgb(212, 209, 209);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    border-bottom: 3px solid rgb(212, 209, 209);
+}
+
+.button_elegiveis:hover {
+    background-color: rgb(196, 15, 49);
+    color: white;
+    border-bottom: 3px solid rgb(255, 78, 14);
+    border-radius: 2.4px;
+}
+
+.button_beneficios {
+    text-decoration: none;
+    position: absolute;
+    left: 792.4px;
+    top: 0px;
+    padding: 17.4px 44.64px;
+    padding-top: 26.7px;
+    color: black;
+    font-size: 17px;
+    border-radius: 2.2px;
+    background-color: rgb(212, 209, 209);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    border-bottom: 3px solid rgb(212, 209, 209);
+}
+
+.button_beneficios:hover {
+    background-color: rgb(196, 15, 49);
+    color: white;
+    border-bottom: 3px solid rgb(255, 78, 14);
+    border-radius: 2.4px;
+}
+
+.button_nos {
+    text-decoration: none;
+    position: absolute;
+    left: 1076.2px;
+    top: 0px;
+    padding: 17.4px 44.64px;
+    padding-top: 26.7px;
+    color: black;
+    font-size: 17px;
+    border-radius: 2.2px;
+    background-color: rgb(212, 209, 209);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    border-bottom: 3px solid rgb(212, 209, 209);
+}
+
+.button_nos:hover {
+    background-color: rgb(196, 15, 49);
+    color: white;
+    border-bottom: 3px solid rgb(255, 78, 14);
+    border-radius: 2.4px;
+}
+
+.instagram {
+    position: absolute;
+    width: 5.4vh;
+    left: 20px;
+    top: 13px;
+    transition: transform 0.3s ease;
+}
+
+.instagram:hover {
+    transform: scale(1.2);
+}
+
+.twitter {
+    position: absolute;
+    width: 4.75vh;
+    left: 70px;
+    top: 15px;
+    transition: transform 0.3s ease;
+}
+
+.twitter:hover {
+    transform: scale(1.2);
+}
+
+.facebook {
+    position: absolute;
+    width: 4.75vh;
+    left: 120px;
+    top: 15px;
+    transition: transform 0.3s ease;
+}
+
+.facebook:hover {
+    transform: scale(1.2);
+}
+
+.whatsapp {
+    position: absolute;
+    width: 4.75vh;
+    left: 170px;
+    top: 15px;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp:hover {
+    transform: scale(1.2);
+}
+
+.telefone {
+    width: 4.7vh;
+    position: absolute;
+    left: 1260px;
+    margin: -11.90px 0px;
+}
+
+
+.p1_telefone {
+    position: absolute;
+    font-size: 13.92px;
+    left: 1305px;
+    top: 6px;
+}
+
+.p2_telefone {
+    position: absolute;
+    font-size: 13.92px;
+    left: 1305px;
+    position: absolute;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pad {
+    height: 79px;
+    background-color: red;
+    position: absolute;
+    padding: 1.4% 0%;
+    top: 648px;
+    width: 100%;
+    right: 0%;
+}
+
+* h1 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(40, 40, 40);
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(40, 40, 40);
+}
+
+.texto_inicio {
+    font-size: 20px;
+}
+
+.botao_doar {
+    background-color: rgb(231, 3, 3);
+    width: 201px;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.botao_doar:hover {
+    background-color: red;
+}
+
+.localizacao {
+    width: 71.1px;
+    position: absolute;
+    left: 130px;
+}
+
+.info_locais {
+    position: absolute;
+    color: white;
+    top: 40px;
+    left: 210px;
+    width: 100%;
+}
+
+.interrogacao {
+    width: 68.72px;
+    position: absolute;
+    left: 630px;
+}
+
+.info_interrogacao {
+    position: absolute;
+    color: white;
+    top: 40px;
+    left: 710px;
+    width: 100%;
+}
+
+.gota {
+    width: 9.6vh;
+    position: absolute;
+    left: 1100px;
+}
+
+.info_gota {
+    position: absolute;
+    color: white;
+    top: 40px;
+    left: 1179px;
+    width: 100%;
+}
+
+.page_pt_2 {
+    position: absolute;
+    top: 820px;
+    left: 600px;
+}
+
+.page_pt2_h1 {
+    font-size: 5vh;
+    margin-left: 1vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page_pt2_h2 {
+    margin-left: 2.9vw;
+    font-size: 5vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page2_h1 {
+    color: rgb(196, 15, 49);
+}
+
+.page2_h2 {
+    color: rgb(196, 15, 49);
+}
+
+.frase_efeito {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6vw;
+    padding: 2.6vh;
+    padding-bottom: 1.4vh;
+    margin-left: -9vw;
+    width: 38vw;
+}
+
+.texto_efeito {
+    font-family: 'Roboto', sans-serif;
+    width: 63vw;
+    margin-left: -20vw;
+    font-size: 1.4vw;
+    padding-bottom: 1.5vh;
+}
+
+.texto2_efeito {
+    font-family: 'Roboto', sans-serif;
+    width: 63vw;
+    margin-left: -7.8vw;
+    font-size: 1.4vw;
+    padding-bottom: 7vh;
+}
+
+.botao_doador {
+    text-decoration: none;
+    margin-left: 2.4vw;
+    background-color: rgb(231, 3, 3);
+    padding: 20px 35px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.botao_doador:hover {
+    background-color: red;
+}
+
+.page_end {
+    position: absolute;
+    width: 100vw;
+    background-color: rgb(221, 58, 58);
+    padding: 29px 227.6px;
+    left: 0vh;
+    top: 165vh;
+}
+
+.github_button {
+    width: 3.5vh;
+    position: absolute;
+    left: 840px;
+    bottom: 1.2vh;
+    background-color: white;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+}
+
+.github_button:hover {
+    transform: scale(1.2);
+}
+
+.text_dev {
+    position: absolute;
+    left: 620px;
+    padding: 0vh 0vw;
+    bottom: 1.7vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .elemento {
+        width: 100%;
+        /* Ocupa toda a largura em telas menores que 768px */
+    }
+
+}
